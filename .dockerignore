@@ -1,0 +1,7 @@
+Dockerfile
+Makefile
+.claude
+.github
+.idea
+.gitignore
+.dockerignore
