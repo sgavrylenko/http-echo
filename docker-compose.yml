@@ -1,0 +1,10 @@
+version: '2'
+services:
+  http-echo:
+    image: ghcr.io/sgavrylenko/http-echo:latest
+    container_name: http-echo
+    environment:
+      - PORT=8000
+    ports:
+      - "127.0.0.1:9999:8000"
+    restart: unless-stopped
